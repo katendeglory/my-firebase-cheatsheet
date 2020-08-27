@@ -1,3 +1,5 @@
+/* RUN  firebase deploy --only functions */
+
 const functions = require('firebase-functions');
 const admin = require('firebase-admin');
 admin.initializeApp();
